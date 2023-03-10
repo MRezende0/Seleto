@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/beb48e95a6.js" crossorigin="anonymous"></script>
+
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <!-- Estilo customizado -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+    <link rel="icon" href="imagens/favicon.png">
+
+    <title></title>
+  </head>
+  <body>
+    <div id="app">
+        <nav>
+            <div class="nav__header">
+                <div class="nav__header__user"></div>
+                <div class="nav__header__user__info">
+                    <p>Jeferson Gonçalves</p>
+                    <p>Proprietário</p>
+                </div>
+            </div>
+            <div class="nav__menu">
+                <div class="nav__menu__section">
+                    <p class="nav__menu__title">Geral</p>
+                    <ul class="nav__menu__body">
+                        <a href="index.html"  id="menu--active">
+                            <li>
+                                <i class="fas fa-home"></i>
+                                Home
+                            </li>
+                        </a>
+                        <a href="planejamento.html">
+                            <li>
+                                <i class="far fa-clipboard"></i>
+                                Planejamentos
+                            </li>
+                        </a>
+                        <a href="funcionarios.html">
+                            <li>
+                                <i class="fas fa-user-friends"></i>
+                                Funcionários
+                            </li>
+                        </a>
+                        <a href="">
+                            <li>
+                                <i class="fas fa-tractor"></i>
+                                Maquinários
+                            </li>
+                        </a>
+                    </ul>
+                </div>
+                <div class="nav__menu__section">
+                    <p class="nav__menu__title">Tools</p>
+                    <ul class="nav__menu__body">
+                        <a href="">
+                            <li>
+                                <i class="fas fa-cog"></i>
+                                Configurações
+                            </li>
+                        </a>
+                        <a href="">
+                            <li>
+                                <i class="fas fa-home"></i>
+                                Trocar de fazenda
+                            </li>
+                        </a>
+                        <a href="login.html" id="sair">
+                            <li>
+                                <i class="fas fa-sign-out-alt"></i>
+                                Sair
+                            </li>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <section class="app__body">
+            <header class="app__body__header">
+                <h1>Planejamento</h1>
+                <button class="btn btn--primary">Criar planejamento</button>
+            </header>
+            <div class="app__body__section">
+                <div class="cards__plan">
+                    <div class="card__plan">
+                        <div class="tags">Admin</div>
+                        <h1 class="title">Planejamento Anual da fazenda.</h1>
+                        <p class="text">Reuniões, demandas, empresárias e administrativas, situações juridicas, entre outras burocrácias.</p>
+                        <div class="card__plan__footer">
+                            <p>1 ano</p>
+                            <div class="funcionarios">
+                                <div class="func__perfil"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card__plan">
+                        <div class="tags">Admin</div>
+                        <h1 class="title">Planejamento Anual da fazenda.</h1>
+                        <p class="text">Reuniões, demandas, empresárias e administrativas, situações juridicas, entre outras burocrácias.</p>
+                        <div class="card__plan__footer">
+                            <p>1 ano</p>
+                            <div class="funcionarios">
+                                <div class="func__perfil"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card__plan">
+                        <div class="tags">Admin</div>
+                        <h1 class="title">Planejamento Anual da fazenda.</h1>
+                        <p class="text">Reuniões, demandas, empresárias e administrativas, situações juridicas, entre outras burocrácias.</p>
+                        <div class="card__plan__footer">
+                            <p>1 ano</p>
+                            <div class="funcionarios">
+                                <div class="func__perfil"></div>
+                                <div class="func__perfil"></div>
+                                <div class="func__perfil"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="menu__rigth">
+            <h1 class="title mb--4">Projeto</h1>
+
+            <div class="campo">
+                <label for="nome">Nome</label>
+                <div class="campo__input">
+                    <input type="text" id="nome" placeholder="Escreva seu nome">
+                </div>
+            </div>
+            <div class="campo">
+                <label for="inicio">Data de inicio</label>
+                <div class="campo__input">
+                    <input type="date" id="inicio">
+                </div>
+            </div>
+            <div class="campo">
+                <label for="termino">Data de Termino</label>
+                <div class="campo__input">
+                    <input type="date" id="inicio">
+                </div>
+            </div>
+            <div class="campo">
+                <label for="tipo">Tipo</label>
+                <div class="campo__input">
+                    <select name="tipo" id="">
+                        <option value="">Selecione o tipo</option>
+                    </select>
+                </div>
+            </div>
+            <button class="btn btn--primary w-100">Enviar</button>
+        </div>
+    </div>
+  </body>
+</html>
